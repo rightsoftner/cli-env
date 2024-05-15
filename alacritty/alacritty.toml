@@ -1,0 +1,28 @@
+[env]
+
+TERM="xterm-256color"
+
+[window]
+
+padding.x=10
+padding.y=10
+
+decorations="Buttonless"
+opacity=0.92
+blur=true
+
+[font]
+normal = {  family = "JetBrainsMonoNerdFont",  style = "Regular" }
+bold = {  family = "JetBrainsMonoNerdFont",  style = "Bold" }
+italic = {  family = "JetBrainsMonoNerdFont",  style = "Italic" }
+
+size = 12.0
+
+[terminal]
+osc52 = "CopyPaste"
+
+[keyboard]
+bindings = [
+  { key = "C", mods = "Control|Alt", action = "Copy" },
+  { key = "P", mods = "Control|Alt", action = "Paste" },
+]
