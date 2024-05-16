@@ -1,14 +1,17 @@
 # cli-env
 
 ```shell
-$ cp ~/.config/alacritty/alacritty.toml ./alacrity/
+$ mkdir ~/.config/alacritty
+$ cp ./alacrity/alacritty.toml ~/.config/alacritty/alacritty.toml
 ```
 
 ```shell
 $ tmux show -g | cat > ./tmux/.tmux.conf
 ```
 
-## Alacritty
+## [Alacritty](https://alacritty.org/)
+
+[Fonts](https://www.nerdfonts.com/font-downloads)
 
 |Operation | Key |
 |-|-|
