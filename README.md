@@ -40,8 +40,6 @@ press the old prefix (CtrlB), :source ~/.tmux.conf
 press the old prefix (CtrlB), :set -g prefix C-a
 ```
 
-
-
 | &lt;prefix&gt; | after set new configuration | default |
 | - | - | - |
 | | Control-A | Control-B |
@@ -71,10 +69,58 @@ press the old prefix (CtrlB), :set -g prefix C-a
 |  |  |  |
 |  |  |  |
 |  |  |  |
-|  |  |  |
-|  |  |  |
 
 $ tmux new -s my-session
 
 $ tmux ls
 $ tmux attach -t my-session
+
+
+## nvim
+
+|Operation | Key | Command |
+|-|-|-|
+| Undo | u | :u :undo |
+| Redo | Ctrl + R | :redo |
+|  | 0, $, w,e, b,  | :redo |
+|  | gg, G, 7j, 10k, 28G |  |
+|  | Insert mode |  |
+|  | a, i, o, O |  |
+|  | p, P |  |
+| Open NerdTree window |  | :NERDTreeFocus |
+| Up to parrent dir | u |  |
+| Open menu | m |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
+
+### Config
+
+```shell
+$ nvim  ~/.config/nvim/init.vim
+```
+
+```
+set clipboard=unnamedplus
+
+autocmd BufNewFile *.html 0r ~/.vim/templates/html_main.html
+autocmd BufNewFile *.css 0r ~/.vim/templates/css_clean.css
+```
+
+
+### [ripgrep](https://github.com/BurntSushi/ripgrep)
+
+```
+$ sudo apt-get install ripgrep
+```
