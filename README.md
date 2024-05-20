@@ -90,7 +90,7 @@ $ tmux attach -t my-session
 | Open NerdTree window |  | :NERDTreeFocus |
 | Up to parrent dir | u |  |
 | Open menu | m |  |
-|  |  |  |
+| Switch betwin file and Nerd Tree | Ctrl + ww |  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
