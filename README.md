@@ -87,6 +87,11 @@ $ tmux attach -t my-session
 |  | Insert mode |  |
 |  | a, i, o, O |  |
 |  | p, P |  |
+
+### Nerd Tree
+
+|Operation | Key | Command |
+|-|-|-|
 | Open NerdTree window |  | :NERDTreeFocus |
 | Up to parrent dir | u |  |
 | Open menu | m |  |
