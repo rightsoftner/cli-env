@@ -90,6 +90,8 @@ $ tmux attach -t my-session
 
 ### Nerd Tree
 
+[How to use NERDTree ](http://www.witkowskibartosz.com/blog/how_to_use_nerdtree.html)
+
 |Operation | Key | Command |
 |-|-|-|
 | Open NerdTree window |  | :NERDTreeFocus |
