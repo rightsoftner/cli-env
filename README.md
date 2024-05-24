@@ -66,6 +66,27 @@ press the old prefix (CtrlB), :set -g prefix C-a
 | Fast select session | &lt;prefix&gt; + g | &lt;prefix&gt; + g |
 | Next / previous session | &lt;prefix&gt; + ( or ) | &lt;prefix&gt; + ( or ) |
 | Whow select tree with sessions, windows and panes | &lt;prefix&gt; + w | &lt;prefix&gt; + w |
+|  | Main Copy Mode Keys |  |
+| Enter Copy Mode | &lt;prefix&gt; + l | &lt;prefix&gt; + l |
+|  | emacs | vi |
+| move character    | Up Down Left Right | j k h l       |
+| move line         | Ctrl-Up Ctrl-Down  | Ctrl+Y Ctrl+E |
+| move whole screen | PageUp PageDown    | Ctrl+B Ctrl+F |
+| search            | Ctrl+S             | /             |
+| start selection   | Ctrl+Space         | Space         |
+| copy selection    | Ctrl+W             | Enter         |
+| clear selection   | Ctrl+G             | Escape        |
+| exit copy mode    | Escape             | q             |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
