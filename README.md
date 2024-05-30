@@ -108,6 +108,14 @@ $ tmux attach -t my-session
 |  | Insert mode |  |
 |  | a, i, o, O |  |
 |  | p, P |  |
+| Start select block | v |  |
+| End select block | y |  |
+| Copy block | p |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 ### Nerd Tree
 
@@ -119,7 +127,7 @@ $ tmux attach -t my-session
 | Up to parrent dir | u |  |
 | Open menu | m |  |
 | Switch betwin file and Nerd Tree | Ctrl + ww |  |
-|  |  |  |
+| Shoow hidden files | Shift + i |  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
